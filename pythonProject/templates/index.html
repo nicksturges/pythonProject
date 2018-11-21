@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+             body{
+              height: 1000px;
+        background-color: black;
+        background-image: url("https://images.unsplash.com/photo-1477030099494-2b4bf2699242?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4226736866b8d8ace7ca0530604a9587&auto=format&fit=crop&w=1950&q=80");
+        background-size: cover;
+        /* background-size: 500px 50px; */
+        background-repeat: no-repeat
+        
+       
+        }
+          #navbarSupportedContent{
+            line-height: 30px;
+            margin-left: 600px;
+        }
+        #diamond{
+            height: 5%;
+            width: 5%;
+            margin-right: 10px;
+            /* padding: 5%; */
+        }
+
+        .jumbotron{
+        background: #3C3B3F;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        opacity: 0.7;
+        -webkit-box-shadow: 7px 13px 25px 14px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 13px 25px 14px rgba(0,0,0,0.75);
+        box-shadow: 7px 13px 25px 14px rgba(0,0,0,0.75);
+        }
+       
+
+
+
+        h3{
+            color:red;
+        }
+        
+        .carousel-inner{
+          /* outline: 1px solid red; */
+          height: 200px;
+        /* background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%); */
+
+        }
+        span{
+            color: white;
+            font-size: 80px;
+        }
+       #rangerTab{
+           margin-top: -40px;
+           height: 25%;
+           width: 25%;
+           margin-left: 400px;
+           background-origin: none;
+        background-color:black;
+        
+       } 
+       .wrapper{
+           outline: 1px solid blue;
+          height: 500px;
+          margin: auto;
+          width: auto;
+          padding-left: 103px; 
+          padding-right: 20px;
+       }
+      .box {
+          outline: 1px solid red;
+          height: 200px;
+          width: 200px;
+      }
+    
+      .img-thumbnail {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 75px;
+    position: center;
+    float: left;
+    width:  200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+
+}
+#row{
+    margin-left: 75px;
+}
+.col{
+    /* outline: 1px solid red; */
+    height: 300px;
+}
+p {
+    margin-left: 94px;
+    margin-top: 205px;
+    /* background: black; */
+}
+
+#two{
+    margin-left: 94px;
+    margin-top: 224px;
+}
+#three{
+    margin-top: 223px;
+    margin-left: 94px;
+}
+#four{
+    margin-left: 83px;
+    margin-top: 221px;
+}
+#five{
+    margin-left: 105px;
+    margin-top: 222px;
+}
+    </style>
+  </head>
+  <body>
+          <!-- NAVBAR -->
+    <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <img id="diamond" src="https://static.wixstatic.com/media/d25226_26dbd1b55f6b4e1182bf6a4755ec8d82~mv2.png/v1/fill/w_500,h_500,al_c,q_90/file.jpg" alt="img">
+    
+                   <h1> <a class="navbar-brand" href="/">Ranger In the Sky</a> </h1>    
+    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Members
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="/login">Login</a>
+                              <a class="dropdown-item" href="/register">Join</a>
+                            </div>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/">Rangers</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="/about">about</a>
+                      </ul>
+                    </div>
+                </nav>
+                <div class="jumbotron">
+                  
+                        <img id="rangerTab" src="http://www.norbay.com/sites/default/files/imagecache/product_full/decal-p-501.jpg" alt="">
+                            <!-- <img id="rangerTab" src="https://images.unsplash.com/photo-1477030099494-2b4bf2699242?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4226736866b8d8ace7ca0530604a9587&auto=format&fit=crop&w=1950&q=80" alt=""> -->
+                            
+                            <!-- ////////////////////////////// CAROUSEL///////////////////////////////////  -->
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="8000">
+                                        <div class="carousel-inner">
+        
+                                          <div class="carousel-item active">
+                                            <h3 class="d-block w-100"> <span style="color: black;">Recognizing</span> that I volunteered as a Ranger. fully knowing the hazards of my chosen profession
+                                                I will always endeavor to uphold the prestige, honor, and high esprit de corps of my Ranger Regiment!</h3>
+                                          </div>
+        
+                                          <div class="carousel-item">
+                                            <h3 class="d-block w-100"><span style="color: black;">Acknowledging</span>the fact that a Ranger is a more elite Soldier who arrives at the cutting edge of battle by land, sea, or air, I accept the fact that as a Ranger my country expects me to move further, faster and fight harder than any other Soldier</h3>
+                                          </div>
+        
+                                          <div class="carousel-item">
+                                            <h3 class="d-block w-100"><span style="color: black;">Never</span> shall I fail my comrades. I will always keep myself mentally alert, physically strong and morally straight and I will shoulder more than my share of the task whatever it may be, one-hundred-percent and then some. </h3>
+                                            </div>
+                                      
+                                          <div class="carousel-item">
+                                            <h3 class="d-block w-100"> <span style="color: black;">Gallantly </span>will I show the world that I am a specially selected and well-trained Soldier. My courtesy to superior officers, neatness of dress and care of equipment shall set the example for others to follow. </h3>
+                                            </div>
+                                      
+                                          <div class="carousel-item">
+                                            <h3 class="d-block w-100"> <span style="color: black;">Energetically</span> will I meet the enemies of my country. I shall defeat them on the field of battle for I am better trained and will fight with all my might. Surrender is not a Ranger word. I will never leave a fallen comrade to fall into the hands of the enemy and under no circumstances will I ever embarrass my country.</h3>
+                                            </h3>
+                                            </div>
+                                      
+                                          <div class="carousel-item">
+                                            <h3 class="d-block w-100"> <span style="color: black;">Readily</span> will I display the intestinal fortitude required to fight on to the Ranger objective and complete the mission though I be the lone survivor. </h3>
+                                            </div>
+                                      
+        
+                                        </div>
+                                      </div>
+                                      <!-- ////////////////// END CAROUSEL /////////////////////// -->
+                                      
+                                    </div>
+                        <!-- END JUMBOTRON -->
+                        
+                      
+                                <div id="row"class="row">
+                                  <div class="col">
+                                        <a href="#" ><img id="tillman" class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Corporal_Patrick_Tillman.jpg/220px-Corporal_Patrick_Tillman.jpg"></a>
+                                        <br>
+                                        <p id="one" style="color: #660000;">Coporal Patrick Tillman <br> KIA 22 April 2004</p>
+                                  </div>
+                                  <div class="col">
+                                      <a href="/profiles" ><img id="price" class="img-thumbnail" src="https://pbs.twimg.com/media/CWvfqzzUwAAPmxk.jpg"></a>
+                                       <p id="two" style="color:#660000;">PFC. John Mark Price <br> KIA 29 December 1989</p> 
+                                      
+                                    </div>
+              
+                
+                                </div>
+                                <div class="row">
+                                  <div class="col">
+                                        <a href="/profiles" ><img id="moreno" class="img-thumbnail" src="https://s3.amazonaws.com/static.militarytimes.com/thefallen/jennifer-moreno-6568521.jpg"></a>
+                                        <p id="three" style="color: #660000;">CPT. Jennifer M. Moreno <br> KIA 6 October 2013</p> 
+                                  </div>
+                                  <div class="col">
+                                        <a href="/profiles" ><img id="mac" class="img-thumbnail" src="https://tunnel2towers.org/wp-content/uploads/2018/09/Thomas_MacPherson.jpg"></a>
+                                        <p id="four" style="color: #660000;">SGT. Thomas R. Macpherson <br> KIA 12 October 2012</p> 
+                                  </div>
+                                  <div class="col">
+                                        <a href="/profiles" ><img id="clarkson" class="img-thumbnail" src="https://i.pinimg.com/originals/69/09/73/690973bfe67ecc76a98a8808b464aef4.jpg"></a>
+                                        <p id="five" style="color: #660000;">SGT. Joel Clarkson <br> KIA 17 March 2010</p> 
+                                  </div>
+                                </div>
+                        
+
+                        </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+        $('p').hide();
+        $("#tillman").hover(function(){
+            $("#one").toggle();
+        });
+        
+        $("#price").hover(function(){
+            $("#two").toggle();
+        });
+       
+        $("#moreno").hover(function(){
+            $("#three").toggle();
+        });
+
+        $("#mac").hover(function(){
+            $("#four").toggle();
+        });
+        $("#clarkson").hover(function(){
+            $("#five").toggle();
+        });
+
+// $( "p" ).focusin(function() {
+//   $( this ).find( "span" ).css( "display", "inline" ).fadeOut( 1000 );
+// });
+    
+        
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+</html>
